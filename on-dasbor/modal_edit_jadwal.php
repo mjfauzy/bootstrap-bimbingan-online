@@ -41,6 +41,13 @@
                   </select>
                 </div>
 
+                <div class="form-group" style="padding-bottom: 20px;">
+                  <label for="perihal">Perihal</label>
+                  <input type="radio" name="perihal" value="Proposal" <?php if($row->perihal == 'Proposal') echo "checked"; ?> />Proposal
+                  <input type="radio" name="perihal" value="Skripsi" <?php if($row->perihal == 'Skripsi') echo "checked"; ?> />Skripsi
+                  <input type="radio" name="perihal" value="Lain-Lain" <?php if($row->perihal == 'Lain-Lain') echo "checked"; ?> />Lain-Lain
+                </div>
+
                 <div class="modal-footer">
                   <button class="btn btn-success" type="submit">
                       <span class="glyphicon glyphicon-floppy-open"></span> Update

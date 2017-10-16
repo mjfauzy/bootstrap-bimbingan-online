@@ -102,6 +102,14 @@ require '_header.php';
 									<option value="Informasi">Informasi</option>
 								</select>
 							</div>
+
+							<div class="form-group" style="padding-bottom: 20px;">
+								<label for="perihal">Perihal</label>
+								<input type="radio" name="perihal" value="Proposal" />Proposal
+								<input type="radio" name="perihal" value="Skripsi" />Skripsi
+								<input type="radio" name="perihal" value="Lain-Lain" checked />Lain-Lain
+							</div>
+
               				<div class="modal-footer">
                 				<button class="btn btn-success" type="submit"><span class="glyphicon glyphicon-floppy-disk"></span> Simpan</button>                
                 				<button type="reset" class="btn btn-danger"  data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-ban-circle"></span> Tutup</button>
